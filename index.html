@@ -25,6 +25,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <div class="hamburger">&#9776;</div>
                         <ul class="navbar-nav mt-auto "  >
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #7B5244 !important;">
@@ -384,6 +385,14 @@
         $(document).ready(function(){
             $('#theme-toggle').on('change', function() {
                 $('body').toggleClass('dark-mode');
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.navbar .hamburger');
+            const navItems = document.querySelector('.navbar .nav-items');
+        
+            hamburger.addEventListener('click', function() {
+                navItems.classList.toggle('show');
             });
         });
     </script>
