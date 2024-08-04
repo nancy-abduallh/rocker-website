@@ -405,7 +405,7 @@ input:checked + .slider:before {
     .navbar-toggler {
         position: absolute;
         top: 10%;
-        left: 500px; /* Adjust as needed */
+        left: 350px; /* Adjust as needed */
         transform: translateY(-50%);
         display: block;
         background: none;
@@ -531,7 +531,7 @@ input:checked + .slider:before {
     .navbar-toggler {
         position: absolute;
         top: 10%;
-        left: 500px; /* Adjust as needed */
+        left: 350px; /* Adjust as needed */
         transform: translateY(-50%);
         display: block;
         background: none;
