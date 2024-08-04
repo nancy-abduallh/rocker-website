@@ -405,7 +405,7 @@ input:checked + .slider:before {
     .navbar-toggler {
         position: absolute;
         top: 10%;
-        left: 350px; /* Adjust as needed */
+        left: 300px; /* Adjust as needed */
         transform: translateY(-50%);
         display: block;
         background: none;
@@ -490,8 +490,10 @@ input:checked + .slider:before {
     .about-info p {
         font-size: 15px;
     }
-    .clients{
-        margin-left: 0;
+    .clients .img-fluid{
+        display: none;
+        flex-direction: column;
+        width: 100%;
     }
 }
 
@@ -531,7 +533,7 @@ input:checked + .slider:before {
     .navbar-toggler {
         position: absolute;
         top: 10%;
-        left: 350px; /* Adjust as needed */
+        left: 300px; /* Adjust as needed */
         transform: translateY(-50%);
         display: block;
         background: none;
@@ -615,8 +617,9 @@ input:checked + .slider:before {
     .simple_footer p {
         float: none;
     }
-    .clients{
-        margin-right: 20px;
-
+    .clients .img-fluid{
+        display: none;
+        flex-direction: column;
+        width: 100%;
     }
 }
