@@ -386,8 +386,8 @@ input:checked + .slider:before {
     }
 
     .navbar .nav-items {
-        display: none;
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
         width: 100%;
     }
 
@@ -514,8 +514,8 @@ input:checked + .slider:before {
     }
 
     .navbar .nav-items {
-        display: none;
-        flex-direction: column;
+        display:flex;
+        flex-direction:row;
         width: 100%;
     }
 
