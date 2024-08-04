@@ -324,6 +324,7 @@ input:checked + .slider:before {
     margin: 0;
     float: right;
 }
+
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
     .navbar .nav-link {
@@ -358,8 +359,29 @@ input:checked + .slider:before {
 }
 
 @media (max-width: 768px) {
+    
+    nav {
+        background-color: #7b5244 !important; /* Change to a visible color */
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack items vertically */
+    }
+
     .navbar .nav-link {
-        font-size: 0.9em;
+        font-size: 1em; /* Adjust font size */
+        color: white !important; /* Make links more visible on dark background */
+        padding: 10px;
+        text-align: center; /* Center the text */
+    }
+
+    .navbar .nav-item {
+        width: 100%; /* Make each item take up full width */
+        margin: 5px 0;
+    }
+
+    .navbar .nav-item:hover {
+        background-color: #503026 !important; /* Add hover background for better UX */
     }
     .products-li {
         margin-right: 10px;
@@ -376,6 +398,7 @@ input:checked + .slider:before {
     .about-info {
         flex: none;
     }
+    
 }
 
 @media (max-width: 576px) {
